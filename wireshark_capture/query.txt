@@ -1,0 +1,952 @@
+GET /search?keyfrom=metrodict.main&xmlDetail=true&doctype=xml&xmlVersion=8.1&dogVersion=1.0&q=node&le=eng&keyfrom=metrodict.input&client=metrodict&id=3019615280104595010663601040404140109040186114402823410158212201782429070109&appVer=1.1.49.6663.beta&vendor=store HTTP/1.1
+Host: dict.youdao.com
+Cookie: DICT_UGC=be3af0da19b5c5e6aa4e17bd8d90b28a|; OUTFOX_SEARCH_USER_ID=-1421112224@27.17.143.31; JSESSIONID=abc3KcB3Busu99gXuTInu
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 05 Jan 2014 14:02:43 GMT
+Content-Type: text/xml; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Content-Language: en-US
+Set-Cookie: DICT_UGC=be3af0da19b5c5e6aa4e17bd8d90b28a|; domain=.youdao.com
+
+1054
+<?xml version="1.0" encoding="UTF-8"?>
+<yodaodict>
+<lang>eng</lang>
+<input><![CDATA[node]]></input>
+<return-phrase><![CDATA[$]]></return-phrase>
+
+                                                                 <basic>
+       <type>ee</type>
+           <name>英英释义</name>
+       <authoritative-dict>
+<word>
+<return-phrase><l><i><![CDATA[node]]></i></l></return-phrase>
+<phone>nəud</phone>
+<speech><![CDATA[node]]></speech>
+<trs>
+<pos><![CDATA[n.]]></pos>
+<tr>
+<l>
+<i><![CDATA[a connecting point at which several lines come together]]></i></l>
+</tr>
+<tr>
+<l>
+<i><![CDATA[any thickened enlargement]]></i></l>
+<similar-words>
+<similar><![CDATA[knob]]></similar>
+<similar><![CDATA[thickening]]></similar>
+</similar-words>
+</tr>
+<tr>
+<l>
+<i><![CDATA[(physics) the point of minimum displacement in a periodic system]]></i></l>
+</tr>
+<tr>
+<l>
+<i><![CDATA[(astronomy) a point where an orbit crosses a plane]]></i></l>
+</tr>
+<tr>
+<l>
+<i><![CDATA[the source of lymph and lymphocytes]]></i></l>
+<similar-words>
+<similar><![CDATA[lymph node]]></similar>
+<similar><![CDATA[lymph gland]]></similar>
+</similar-words>
+</tr>
+<tr>
+<l>
+<i><![CDATA[any bulge or swelling of an anatomical structure or part]]></i></l>
+</tr>
+<tr>
+<l>
+<i><![CDATA[(computer science) any computer that is hooked up to a computer network]]></i></l>
+<similar-words>
+<similar><![CDATA[client]]></similar>
+<similar><![CDATA[guest]]></similar>
+</similar-words>
+</tr>
+</trs>
+</word>
+<source>
+<url>http://wordnet.princeton.edu</url>
+<name>WordNet</name>
+<copyright></copyright>
+</source>
+</authoritative-dict>
+       </basic> 
+               <basic>
+                    <name>英汉翻译</name>
+              <type>ec</type>
+                      <simple-dict>
+<word>
+<return-phrase><l><i><![CDATA[node]]></i></l></return-phrase>
+
+
+
+
+	<ukspeech><![CDATA[node&type=1]]></ukspeech>
+	<usspeech><![CDATA[node&type=2]]></usspeech>
+			<ukphone><![CDATA[nəʊd]]></ukphone>
+				<usphone><![CDATA[nod]]></usphone>
+		
+
+<trs>
+           <tr><l><i><![CDATA[n. 节点；瘤；[数] 叉点]]></i></l></tr>
+               <tr><l><i><![CDATA[n. (Node)人名；(法)诺德]]></i></l></tr>
+    </trs>
+ </word>
+<source>
+                          <url>http://dict.youdao.com</url>
+        <name>有道词典</name>
+           <copyright></copyright>
+</source>
+</simple-dict>
+                          <authoritative-dict>
+<word>
+<return-phrase><l><i><![CDATA[node]]></i></l></return-phrase>
+<phone>nəud</phone>
+<trs>
+<pos><![CDATA[n.]]></pos>
+<tr>
+<l><i><![CDATA[节，结，瘤]]></i></l>
+</tr>
+<tr>
+<l><i><![CDATA[中心点，集合点]]></i></l>
+</tr>
+<tr>
+<l><i><![CDATA[(戏剧、故事情节等的)纠葛，曲折，错综复杂(性)]]></i></l>
+</tr>
+<tr>
+<l><i><![CDATA[【几何学】结，结点，叉点]]></i></l>
+</tr>
+<tr>
+<l><i><![CDATA[【物理学】(波)节]]></i></l>
+</tr>
+<tr>
+<l><i><![CDATA[【天文学】交点]]></i></l>
+</tr>
+<tr>
+<l><i><![CDATA[【植物学】]]></i></l>
+<tr><l><i><![CDATA[苤节]]></i></l>
+</tr>
+<tr><l><i><![CDATA[(茎的)生叶处]]></i></l>
+</tr>
+</tr>
+<tr>
+<l><i><![CDATA[【解剖学】(肌组织的)结，结节；淋巴结]]></i></l>
+</tr>
+<tr>
+<l><i><![CDATA[【病理学】硬结肿]]></i></l>
+</tr>
+<tr>
+<l><i><![CDATA[=nodus [参较 ascending node, descending node]]]></i></l>
+</tr>
+</trs>
+<wfs>
+</wfs>
+</word>
+<source>
+<url></url>
+<name><![CDATA[21世纪大英汉词典]]></name>
+<copyright></copyright>
+</source>
+</authoritative-dict>
+              </basic>
+             <basic>
+     <type>phrs</type>
+     <name>词组短语</name>  
+     
+<eng-phrs-dict>
+  <word><![CDATA[node]]></word>
+    <phrs>
+        	<phr>
+	  	  	  <headword>
+		<l><i>
+		<![CDATA[lymph node]]>
+		</i></l>
+	  </headword>
+	  <source>
+		<![CDATA[]]>
+          </source>
+	  <trs>
+	    		<tr><l><i><![CDATA[[医]淋巴结]]></i></l></tr>
+	    	  </trs>	
+	</phr>
+          	<phr>
+	  	  	  <headword>
+		<l><i>
+		<![CDATA[and node]]>
+		</i></l>
+	  </headword>
+	  <source>
+		<![CDATA[]]>
+          </source>
+	  <trs>
+	    		<tr><l><i><![CDATA[与节点]]></i></l></tr>
+	    	  </trs>	
+	</phr>
+          	<phr>
+	  	  	  <headword>
+		<l><i>
+		<![CDATA[network node]]>
+		</i></l>
+	  </headword>
+	  <source>
+		<![CDAT
+5a8
+A[]]>
+          </source>
+	  <trs>
+	    		<tr><l><i><![CDATA[[计]网络节点]]></i></l></tr>
+	    	  </trs>	
+	</phr>
+          	<phr>
+	  	  	  <headword>
+		<l><i>
+		<![CDATA[node number]]>
+		</i></l>
+	  </headword>
+	  <source>
+		<![CDATA[]]>
+          </source>
+	  <trs>
+	    		<tr><l><i><![CDATA[节数]]></i></l></tr>
+	    	  </trs>	
+	</phr>
+          	<phr>
+	  	  	  <headword>
+		<l><i>
+		<![CDATA[destination node]]>
+		</i></l>
+	  </headword>
+	  <source>
+		<![CDATA[]]>
+          </source>
+	  <trs>
+	    		<tr><l><i><![CDATA[目的节点；目标节点]]></i></l></tr>
+	    	  </trs>	
+	</phr>
+          	<phr>
+	  	  	  <headword>
+		<l><i>
+		<![CDATA[child node]]>
+		</i></l>
+	  </headword>
+	  <source>
+		<![CDATA[]]>
+          </source>
+	  <trs>
+	    		<tr><l><i><![CDATA[子节点]]></i></l></tr>
+	    	  </trs>	
+	</phr>
+          	<phr>
+	  	  	  <headword>
+		<l><i>
+		<![CDATA[leaf node]]>
+		</i></l>
+	  </headword>
+	  <source>
+		<![CDATA[]]>
+          </source>
+	  <trs>
+	    		<tr><l><i><![CDATA[叶节点]]></i></l></tr>
+	    	  </trs>	
+	</phr>
+          	<phr>
+	  	  	  <headword>
+		<l><i>
+		<![CDATA[sinoatrial node]]>
+		</i></l>
+	  </headword>
+	  <source>
+		<![CDATA[]]>
+          </source>
+	  <trs>
+	    		<tr><l><i><![CDATA[[医]窦房结]]></i></l></tr>
+	    	  </trs>	
+	</phr>
+          	<phr>
+	  	  	  <headword>
+		<l><i>
+		<![CDATA[atrioventricular node]]>
+		</i></l>
+	  </headword>
+	  <source>
+		<![CDATA[]]>
+          </source
+5a8
+>
+	  <trs>
+	    		<tr><l><i><![CDATA[[解]房室结]]></i></l></tr>
+	    	  </trs>	
+	</phr>
+          	<phr>
+	  	  	  <headword>
+		<l><i>
+		<![CDATA[node type]]>
+		</i></l>
+	  </headword>
+	  <source>
+		<![CDATA[]]>
+          </source>
+	  <trs>
+	    		<tr><l><i><![CDATA[节点类型；网点类型]]></i></l></tr>
+	    	  </trs>	
+	</phr>
+          	<phr>
+	  	  	  <headword>
+		<l><i>
+		<![CDATA[or node]]>
+		</i></l>
+	  </headword>
+	  <source>
+		<![CDATA[]]>
+          </source>
+	  <trs>
+	    		<tr><l><i><![CDATA[或节点]]></i></l></tr>
+	    	  </trs>	
+	</phr>
+        </phrs>		
+</eng-phrs-dict>
+     </basic>
+             <basic>
+      <type>syno</type>
+      <name>同近义词</name>
+          <eng-syno-dict>
+  <word><![CDATA[node]]></word>
+    <synos>	
+  	<syno>
+	  <pos><![CDATA[n.]]></pos> 	
+          <tran><![CDATA[节点；瘤；[数]叉点]]></tran>
+       	  <ws>
+            	                    		    <w><![CDATA[nodal point]]></w>	
+                                    		    <w><![CDATA[tumour]]></w>	
+                                  </ws> 
+	</syno>
+    </synos>		
+</eng-syno-dict>
+         </basic>
+               <basic>
+     <type>collins</type>
+     <name>kelinsi</name>
+         <collins-dict>
+    <collins-entries>
+                                <headword><![CDATA[node]]></headword>
+                            <phonetic><![CDATA[nəʊd]]></phonetic>
+                                                                      
+b50
+  <star><![CDATA[1]]></star>
+                                                                                <basic-entries>
+                                             <basic-entry>
+                                     <headword><![CDATA[node]]></headword>
+                 
+                                                                <wordforms>
+                                                    <wordform>
+                                        <word><![CDATA[nodes]]></word>
+                                                            </wordform>
+                                </wordforms>
+                                                
+                                                                       <cet><![CDATA[TEM8]]></cet>
+                                                                                                                                                                                                                                                                                                                                                                                      </basic-entry>
+                                </basic-entries>
+                	<entries>
+            		<entry>
+    		        	        	                                                    <tran-entry>
+                                                                    <pos-entry>
+                                                                                                                                                                    <pos><![CDATA[N-COUNT]]></pos>
+                                                                <pos-tips><![CDATA[可数名词]]></pos-tips>
+                                        </pos-entry>
+                                                    <tran><![CDATA[A <b>node</b> is a point, especially in the form of lump or swelling, where one thing joins another. 节点; 结; 瘤]]></tran>
+                                                            <exam-sents>
+                                    <sent>
+                        <eng-sent><![CDATA[Cut them off cleanly through the stem just below the node.]]></eng-sent>
+                        <chn-sent><![CDATA[从茎节下面，沿茎干把它们全剪掉。]]></chn-sent>
+                    </sent>
+                                    <sent>
+                        <eng-sent><![CDATA[...nerve nodes.]]></eng-sent>
+                        <chn-sent><![CDATA[...神经结。]]></chn-sent>
+                    </sent>
+                                </exam-sents>
+                                
+                                                                                                                                                                                                                                                                                 
+b50
+                                                                                                                          </tran-entry>
+    	                    </entry>
+       	</entries>
+        </collins-entries>
+</collins-dict>
+      </basic>
+               <basic>
+        <type>rel-word</type>
+        <name>同根词</name>
+          <rel-word-dict>
+  <word><![CDATA[node]]></word>
+  
+  <stem><![CDATA[node]]></stem>
+  
+   
+ <rels>	
+  	<rel>
+	  <pos><![CDATA[adj.]]></pos> 	
+       	  <words>
+            	                        <word><![CDATA[nodal]]></word>	
+                <tran><![CDATA[ 节的；结的；节似的]]></tran>
+                                      </words> 
+	</rel>
+    </rels>
+</rel-word-dict>
+         </basic>
+            <basic>
+        <type>pic-dict</type>
+        <name>图片词典</name>
+        <picdict-pics>
+					<pic>
+			<url><![CDATA[http://oimagea3.ydstatic.com/image?url=http://www.proprofs.com/flashcards/upload/a2020897.jpg&product=PICDICT_EDIT]]></url>
+			<host><![CDATA[]]></host>
+            <image><![CDATA[http://oimagea3.ydstatic.com/image?url=http://www.proprofs.com/flashcards/upload/a2020897.jpg&product=PICDICT_EDIT]]></image>
+		</pic>
+				<pic>
+			<url><![CDATA[http://oimageb2.ydstatic.com/image?url=http://www.nlm.nih.gov/medlineplus/ency/images/ency/fullsize/9833.jpg&product=PICDICT_EDIT]]></url>
+			<host><![CDATA[]]></host>
+            <image><![CDATA[http://oimageb2.ydstatic.com/image?url=http://www.nlm.nih.gov/medlineplus/ency/images/ency/fullsize/9833.jpg&product=PICDICT_EDIT]]></image>
+		</pic>
+				<pic>
+			<url><![CDATA[http://oimagea7.ydstatic.com/image?url=http://mgeisler.net/images/tikz-artwork.png&product=PICDICT_EDIT]]></url>
+			<host><![CDATA[]]></host>
+            <image><![CDATA[http://oimagea7.ydstatic.com/image?url=http://mgeisler.net/images/tikz-artwork.png&product=PICDICT_EDIT]]></image>
+		</pic>
+				<pic>
+			<url><![CDATA[http://oimagea2.ydstatic.com/image?url=http://visant.bu.edu/vmanual/images/node_shapes.jpg&product=PICDICT_EDIT]]></url>
+			<host><![CDATA[]]></host>
+            <image><![CDATA[http://oimagea2.ydstatic.com/image?url=http://visant.bu.edu/vmanual/images/node_shapes.jpg&product=PICDICT_EDIT]]></image>
+		</pic>
+		</picdict-pics>
+    </basic>
+            <basic>
+        <type>special</type>
+        <name>专业释义</name>
+        <special-dict>
+					<total><![CDATA[2,447,543]]></total>
+               	<summary>
+                  <text>以上统计来源于2,447,534篇论文数据，部分数据来源于</text>
+                  <sources>
+                      <source>
+                          <site>NoteExpress</site>
+                          <url>http://cn.noteexpress.net/CompanyWeb/</url>
+                      </source>
+                  </sources>
+              	</summary>
+
+		<co-add><![CDATA[http://cn.noteexpress.net/]]></co-add>
+		<entries>
+		                <entr
+5a8
+y>
+				<major><![CDATA[计算机科学技术]]></major>
+				<num><![CDATA[2]]></num>
+				<trs>
+				                    <tr>
+					<nat><![CDATA[节点]]></nat>
+					<cite><![CDATA[4863]]></cite>
+					                                                                                                                    	                                    	<url><![CDATA[http://www.ecice06.com/CN/abstract/abstract21633.shtml]]></url>
+                                                                                                                                                                                                                                                                            <docTitle><![CDATA[基于节点状态的无线Mesh网络路由算法]]></docTitle>
+                                                                                                                                                                                                                                        <engSent><![CDATA[The <b>node</b> can only maintain the routing of nodes with itself.]]></engSent>
+                                                                                                                                                                                                                                        <chnSent><![CDATA[该算法能避免网络中间<b>节点</b>为转发分组而必须保持最新路由
+5a8
+的问题，使<b>节点</b>仅维护与之通信的<b>节点</b>路由。]]></chnSent>
+                                                                                                            
+                                        </tr>
+                                    <tr>
+					<nat><![CDATA[结点]]></nat>
+					<cite><![CDATA[498]]></cite>
+					                                                                                                                    	                                    	<url><![CDATA[http://acad.cnki.net/kns55/detail.aspx?FileName=2003032299.nh&dbName=CDFD2002]]></url>
+                                                                                                                                                                                                                                                                            <docTitle><![CDATA[异构集群管理系统的关键技术研究 ]]></docTitle>
+                                                                                                                                                                                                                                        <engSent><![CDATA[It can realize <b>node</b> autonomy,and avoid management neck,and enforce the efficiency.3.]]></engSent>
+                                                                                                                                    
+5a5
+                                                                                                    <chnSent><![CDATA[这样既能保证<b>结点</b>的自治性，又能避免管理瓶颈，提高管理效率。]]></chnSent>
+                                                                                                            
+                                        </tr>
+                				</trs>
+                </entry>
+		                <entry>
+				<major><![CDATA[电子、通信与自动控制技术]]></major>
+				<num><![CDATA[2]]></num>
+				<trs>
+				                    <tr>
+					<nat><![CDATA[节点]]></nat>
+					<cite><![CDATA[4233]]></cite>
+					                                                                                                                    	                                    	<url><![CDATA[http://www.cnki.net/kcms/detail/detailall.aspx?dbcode=CDFD&dbname=CDFDTEMP&filename=2010042174.nh]]></url>
+                                                                                                                                                                                                                                                                            <docTitle><![CDATA[双源网络编码研究 ]]></docTitle>
+                                                                                                                                                                             
+5a8
+                                                           <engSent><![CDATA[This method controls the sending rate for each source <b>node</b>.]]></engSent>
+                                                                                                                                                                                                                                        <chnSent><![CDATA[这种方法控制每个信源<b>节点</b>的传输速率。]]></chnSent>
+                                                                                                            
+                                        </tr>
+                                    <tr>
+					<nat><![CDATA[结点]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                				</trs>
+                </entry>
+		                <entry>
+				<major><![CDATA[医药科学]]></major>
+				<num><![CDATA[3]]></num>
+				<trs>
+				                    <tr>
+					<nat><![CDATA[(肌组织的)结，结节；淋巴结]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                                    <tr>
+					<nat><![CDATA[硬结肿]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                                    <tr>
+					<nat><![CDATA[结脉]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                				</trs>
+                </entry>
+		                <
+1c48
+entry>
+				<major><![CDATA[经济学]]></major>
+				<num><![CDATA[1]]></num>
+				<trs>
+				                    <tr>
+					<nat><![CDATA[结点]]></nat>
+					<cite><![CDATA[58]]></cite>
+					                                                                                                                    	                                    	<url><![CDATA[http://www.cnki.net/kcms/detail/detailall.aspx?dbcode=CMFD&dbname=CMFD2005&filename=2004139215.nh]]></url>
+                                                                                                                                                                                                                                                                            <docTitle><![CDATA[网络环境下企业技术创新过程的机理研究 ]]></docTitle>
+                                                                                                                                                                                                                                        <engSent><![CDATA[Combining with the matrix theory this paper evolves the information-flow net structure model (IFNSM) for the enterprise’s techno- innovation process whiles the <b>node</b> and its local environment is discussed.]]></engSent>
+                                                                                                                                                                                                                                        <chnSent><![CDATA[本文接着结合矩阵论给出技术创新过程的信息流网络结构模型，在此指导下讨论了<b>结点</b>、<b>结点</b>环境。]]></chnSent>
+                                                                                                            
+                                        </tr>
+                				</trs>
+                </entry>
+		                <entry>
+				<major><![CDATA[数学]]></major>
+				<num><![CDATA[1]]></num>
+				<trs>
+				                    <tr>
+					<nat><![CDATA[叉点]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                				</trs>
+                </entry>
+		                <entry>
+				<major><![CDATA[天文学]]></major>
+				<num><![CDATA[2]]></num>
+				<trs>
+				                    <tr>
+					<nat><![CDATA[交会点]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                                    <tr>
+					<nat><![CDATA[交点]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                				</trs>
+                </entry>
+		                <entry>
+				<major><![CDATA[生物学]]></major>
+				<num><![CDATA[8]]></num>
+				<trs>
+				                    <tr>
+					<nat><![CDATA[节]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                                    <tr>
+					<nat><![CDATA[结]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                                    <tr>
+					<nat><![CDATA[结节]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                                    <tr>
+					<nat><![CDATA[疣;结核;瘤齿;节]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                                    <tr>
+					<nat><![CDATA[瘤齿]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                                    <tr>
+					<nat><![CDATA[分支点]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                                    <tr>
+					<nat><![CDATA[结脉]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                                    <tr>
+					<nat><![CDATA[结;节;腹隆节;结脉]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                				</trs>
+                </entry>
+		                <entry>
+				<major><![CDATA[机械工程]]></major>
+				<num><![CDATA[2]]></num>
+				<trs>
+				                    <tr>
+					<nat><![CDATA[节点]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                                    <tr>
+					<nat><![CDATA[波节]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                				</trs>
+                </entry>
+		                <entry>
+				<major><![CDATA[交通运输工程]]></major>
+				<num><![CDATA[2]]></num>
+				<trs>
+				                    <tr>
+					<nat><![CDATA[结点]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                                    <tr>
+					<nat><![CDATA[波节]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                				</trs>
+                </entry>
+		                <entry>
+				<major><![CDATA[地球科学]]></major>
+				<num><![CDATA[1]]></num>
+				<trs>
+				                    <tr>
+					<nat><![CDATA[结点]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                				</trs>
+                </entry>
+		                <entry>
+				<major><![CDATA[能源科学技术]]></major>
+				<num><![CDATA[2]]></num>
+				<trs>
+				                    <tr>
+					<nat><![CDATA[结点]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                                    <tr>
+					<nat><![CDATA[节点]]></nat>
+					<cite><![CDATA[0]]></cite>
+					                    </tr>
+                				</trs>
+                </entry>
+				</entries>
+	</special-dict>
+    </basic>
+            <!-- 汉汉解释内容开始 -->
+     <yodao-web-dict>
+<copyright></copyright>
+<web-translation same="true">
+<key><![CDATA[node]]></key>
+<key-speech><![CDATA[node]]></key-speech>
+<trans>
+<value><![CDATA[节点]]></value>
+<summary><line><![CDATA[<b>节点</b>(<b>Node</b>):是在运行时存在的物理元素,它表示了一种可计算的资源,它通常至少有一些记忆能力和处理能力.]]></line></summary>
+<url><![CDATA[http://www.youdao.com/search?keyfrom=dict&q=node+节点]]></url>
+<support>1847</support>
+</trans>
+<trans>
+<value><![CDATA[结点]]></value>
+<summary><line><![CDATA[C语言难点分析整理！[转贴] ...]]></line><line><![CDATA[}<b>NODE</b>; /*<b>结点</b>*/]]></line><line><![CDATA[p=(<b>NODE</b> *)malloc(sizeof(<b>NODE</b>)); /*强制类型转换为指针*/]]></line><line><![CDATA[q-&gt;next=NULL; /*链表结束*/ ...]]></line></summary>
+<url><![CDATA[http://www.youdao.com/search?keyfrom=dict&q=node+结点]]></url>
+<support>703</support>
+</trans>
+<trans>
+<value><![CDATA[交点]]></value>
+<cls>
+		 <cl><![CDATA[天]]></cl>
+        </cls>
+<summary><line><![CDATA[宇宙相关词汇 Article for universe ...]]></line><line><![CDATA[perigee 近地点]]></line><line><![CDATA[<b>node </b><b>交点</b>]]></line><line><![CDATA[limb 边缘 ...]]></line></summary>
+<url><![CDATA[http://www.youdao.com/search?keyfrom=dict&q=node+交点]]></url>
+<support>217</support>
+</trans>
+<trans>
+<value><![CDATA[淋巴结]]></value>
+<summary><line><![CDATA[主题：肿大 | 医源世界]]></line><line><![CDATA[关键词］  彩色多普勒血流显像；超声；<b>淋巴结</b>]]></line><line><![CDATA[[gap=1029]Key words］  CDFI；ultrasonic ;lymphsis <b>node<
+5a8
+/b>]]></line></summary>
+<url><![CDATA[http://www.youdao.com/search?keyfrom=dict&q=node+淋巴结]]></url>
+<support>131</support>
+</trans>
+</web-translation>
+<web-translation>
+<key><![CDATA[Orbital node]]></key>
+<key-speech><![CDATA[Orbital+node]]></key-speech>
+<trans>
+<value><![CDATA[轨道交点]]></value>
+<cls>
+		 <cl><![CDATA[天]]></cl>
+        </cls>
+</trans>
+</web-translation>
+<web-translation>
+<key><![CDATA[Root Node]]></key>
+<key-speech><![CDATA[Root+Node]]></key-speech>
+<trans>
+<value><![CDATA[根节点]]></value>
+<cls>
+		 <cl><![CDATA[计]]></cl>
+        </cls>
+</trans>
+<trans>
+<value><![CDATA[根结点]]></value>
+<cls>
+		 <cl><![CDATA[计]]></cl>
+        </cls>
+</trans>
+<trans>
+<value><![CDATA[根部节点]]></value>
+<cls>
+		 <cl><![CDATA[计]]></cl>
+        </cls>
+</trans>
+</web-translation>
+<web-translation>
+<key><![CDATA[node number]]></key>
+<key-speech><![CDATA[node+number]]></key-speech>
+<trans>
+<value><![CDATA[节点号]]></value>
+<cls>
+		 <cl><![CDATA[力]]></cl>
+        </cls>
+</trans>
+<trans>
+<value><![CDATA[节点编号]]></value>
+<cls>
+		 <cl><![CDATA[力]]></cl>
+        </cls>
+</trans>
+<trans>
+<value><![CDATA[节点数]]></value>
+<cls>
+		 <cl><![CDATA[力]]></cl>
+        </cls>
+</trans>
+<trans>
+<value><![CDATA[节点号码]]></value>
+<cls>
+		 <cl><![CDATA[力]]></cl>
+        </cls>
+</trans>
+</web-translation>
+<web-translation>
+<key><![CDATA[wave node]]></key>
+<key-speech><![CDATA[wave+node]]></key-spee
+5a8
+ch>
+<trans>
+<value><![CDATA[波节]]></value>
+<cls>
+		 <cl><![CDATA[物]]></cl>
+        </cls>
+</trans>
+</web-translation>
+<web-translation>
+<key><![CDATA[terminal node]]></key>
+<key-speech><![CDATA[terminal+node]]></key-speech>
+<trans>
+<value><![CDATA[终端结点]]></value>
+</trans>
+<trans>
+<value><![CDATA[终端节点]]></value>
+</trans>
+<trans>
+<value><![CDATA[终结点]]></value>
+</trans>
+<trans>
+<value><![CDATA[终点]]></value>
+</trans>
+</web-translation>
+<web-translation>
+<key><![CDATA[switching node]]></key>
+<key-speech><![CDATA[switching+node]]></key-speech>
+<trans>
+<value><![CDATA[交换节点]]></value>
+<cls>
+		 <cl><![CDATA[计]]></cl>
+        </cls>
+</trans>
+<trans>
+<value><![CDATA[转换节点]]></value>
+<cls>
+		 <cl><![CDATA[计]]></cl>
+        </cls>
+</trans>
+<trans>
+<value><![CDATA[分组交换码]]></value>
+</trans>
+</web-translation>
+<web-translation>
+<key><![CDATA[sensor node]]></key>
+<key-speech><![CDATA[sensor+node]]></key-speech>
+<trans>
+<value><![CDATA[传感器节点]]></value>
+</trans>
+<trans>
+<value><![CDATA[感测节点]]></value>
+</trans>
+<trans>
+<value><![CDATA[感应器节点]]></value>
+</trans>
+<trans>
+<value><![CDATA[是由传感器节点]]></value>
+</trans>
+</web-translation>
+<web-translation>
+<key><![CDATA[corner node]]></key>
+<key-speech><![CDATA[corner+node]]></key-speech>
+<trans>
+<value><![CDATA[角节点]]></value>
+<cls>
+		 <cl><![CDATA[力]]></cl>
+        </cls>
+</trans>
+</web-transla
+5a8
+tion>
+<web-translation>
+<key><![CDATA[Merge Node]]></key>
+<key-speech><![CDATA[Merge+Node]]></key-speech>
+<trans>
+<value><![CDATA[合并节点]]></value>
+<cls>
+		 <cl><![CDATA[计]]></cl>
+        </cls>
+</trans>
+</web-translation>
+ </yodao-web-dict>
+
+<sentences-result>
+                <example-sentences>
+                                                                    <sentence-pair>
+            <sentence><![CDATA[Do this on each node.]]></sentence>
+            <sentence-eng><![CDATA[Do this on each <b>node</b>.]]></sentence-eng>
+                          <sentence-speech><![CDATA[Do+this+on+each+node.&le=eng]]></sentence-speech>
+                        <sentence-translation><![CDATA[每个节点都需要这样做。]]></sentence-translation>
+                                         <url><![CDATA[http://www.ibm.com/developerworks/cn/data/library/techarticles/dm-0407vanwinkle/index.html]]></url>
+                                    <aligned-words><src><chars id="0" s="1" e="3"><aligns><sc id="0"/><tc id="3"/></aligns></chars><chars id="2" s="12" e="16"><aligns><sc id="2"/><tc id="0"/></aligns></chars><chars id="3" s="17" e="21"><q s="17" e="21"/><aligns><sc id="3"/><tc id="1"/></aligns></chars></src><tran><chars id="0" s="1" e="3"><aligns><sc id="2"/><tc id="0"/></aligns></chars><chars id="1" s="3" e="5"><aligns><sc id="3"/><tc id="1"/></aligns></chars><chars id="3" s="10" e="11"><aligns><sc id="0"/><tc id="3"/></aligns></c
+10f5
+hars></tran></aligned-words>
+                        </sentence-pair>
+                                           <sentence-pair>
+            <sentence><![CDATA[And we ask, what do we get with this node?]]></sentence>
+            <sentence-eng><![CDATA[And we ask, what do we get with this <b>node</b>?]]></sentence-eng>
+                          <sentence-speech><![CDATA[And+we+ask%2C+what+do+we+get+with+this+node%3F&le=eng]]></sentence-speech>
+                        <sentence-translation><![CDATA[然后我们问，这个节点我们获得的是什么？]]></sentence-translation>
+                                         <url><![CDATA[http://v.163.com/special/opencourse/bianchengdaolun.html]]></url>
+                                    <aligned-words><src><chars id="0" s="1" e="4"><aligns><sc id="0"/><tc id="0"/></aligns></chars><chars id="1" s="5" e="7"><aligns><sc id="1"/><tc id="1"/></aligns></chars><chars id="2" s="8" e="11"><aligns><sc id="2"/><tc id="2"/></aligns></chars><chars id="3" s="13" e="20"><aligns><sc id="3"/><tc id="7"/></aligns></chars><chars id="4" s="21" e="23"><aligns><sc id="4"/><tc id="5"/></aligns></chars><chars id="5" s="24" e="27"><aligns><sc id="5"/><tc id="6"/></aligns></chars><chars id="6" s="33" e="37"><aligns><sc id="6"/><tc id="3"/></aligns></chars><chars id="7" s="38" e="42"><q s="38" e="42"/><aligns><sc id="7"/><tc id="4"/></aligns></chars></src><tran><chars id="0" s="1" e="3"><aligns><sc id="0"/><tc id="0"/></aligns></chars><chars id="1" s="3" e="5"><aligns><sc id="1"/><tc id="1"/></aligns></chars><chars id="2" s="5" e="6"><aligns><sc id="2"/><tc id="2"/></aligns></chars><chars id="3" s="7" e="9"><aligns><sc id="6"/><tc id="3"/></aligns></chars><chars id="4" s="9" e="11"><aligns><sc id="7"/><tc id="4"/></aligns></chars><chars id="5" s="11" e="13"><aligns><sc id="4"/><tc id="5"/></aligns></chars><chars id="6" s="13" e="15"><aligns><sc id="5"/><tc id="6"/></aligns></chars><chars id="7" s="17" e="19"><aligns><sc id="3"/><tc id="7"/></aligns></chars></tran></aligned-words>
+                        </sentence-pair>
+                                           <sentence-pair>
+            <sentence><![CDATA[One of its purposes is to register for all notifications which occur on that cell, node, or server.]]></sentence>
+            <sentence-eng><![CDATA[One of its purposes is to register for all notifications which occur on that cell, <b>node</b>, or server.]]></sentence-eng>
+                          <sentence-speech><![CDATA[One+of+its+purposes+is+to+register+for+all+notifications+which+occur+on+that+cell%2C+node%2C+or+server.&le=eng]]></sentence-speech>
+                        <sentence-translation><![CDATA[其目的之一就是为该单元、节点或服务器上发生的所有通知进行注册。]]></sentence-translation>
+                                         <url><![CDATA[http://www.ibm.com/developerworks/cn/websphere/techjournal/0304_lauzon/lauzon.html]]></url>
+                                    <aligned-words><src><chars id="0" s="1" e="7"><aligns><sc id="0"/><tc id="2"/></aligns></chars><chars id="1" s="8" e="11"><aligns><sc id="1"/><tc id="0"/></aligns></chars><chars id="2" s="12" e="20"><aligns><sc id="2"/><tc id="1"/></aligns></chars><chars id="3" s="21" e="23"><aligns><sc id="3"/><tc id="3"/></aligns></chars><chars id="4" s="27" e="35"><aligns><sc id="4"/><tc id="14"/></aligns></chars><chars id="5" s="36" e="39"><aligns><sc id="5"/><tc id="4"/></aligns></chars><chars id="6" s="40" e="43"><aligns><sc id="6"/><tc id="12"/></aligns></chars><chars id="7" s="44" e="57"><aligns><sc id="7"/><tc id="13"/></aligns></chars><chars id="8" s="64" e="69"><aligns><sc id="8"/><tc id="11"/></aligns></chars><chars id="9" s="70" e="72"><aligns><sc id="9"/><tc id="10"/></aligns></chars><chars id="10" s="73" e="77"><aligns><sc id="10"/><tc id="5"/></aligns></chars><chars id="11" s="78" e="82"><aligns><sc id="11"/><tc id="6"/></aligns></chars><chars id="12" s="84" e="88"><q s="84" e="88"/><aligns><sc id="12"/><tc id="7"/></aligns></chars><chars id="13" s="90" e="92"><aligns><sc id="13"/><tc id="8"/></aligns></chars><chars id="14" s="93" e="99"><aligns><sc id="14"/><tc id="9"/></aligns></chars></src><tran><chars id="0" s="1" e="2"><aligns><sc id="1"/><tc id="0"/></aligns></chars><chars id="1" s="2" e="4"><aligns><sc id="2"/><tc id="1"/></aligns>
+5a8
+</chars><chars id="2" s="4" e="6"><aligns><sc id="0"/><tc id="2"/></aligns></chars><chars id="3" s="6" e="8"><aligns><sc id="3"/><tc id="3"/></aligns></chars><chars id="4" s="8" e="9"><aligns><sc id="5"/><tc id="4"/></aligns></chars><chars id="5" s="9" e="10"><aligns><sc id="10"/><tc id="5"/></aligns></chars><chars id="6" s="10" e="12"><aligns><sc id="11"/><tc id="6"/></aligns></chars><chars id="7" s="13" e="15"><aligns><sc id="12"/><tc id="7"/></aligns></chars><chars id="8" s="15" e="16"><aligns><sc id="13"/><tc id="8"/></aligns></chars><chars id="9" s="16" e="19"><aligns><sc id="14"/><tc id="9"/></aligns></chars><chars id="10" s="19" e="20"><aligns><sc id="9"/><tc id="10"/></aligns></chars><chars id="11" s="20" e="22"><aligns><sc id="8"/><tc id="11"/></aligns></chars><chars id="12" s="23" e="25"><aligns><sc id="6"/><tc id="12"/></aligns></chars><chars id="13" s="25" e="27"><aligns><sc id="7"/><tc id="13"/></aligns></chars><chars id="14" s="29" e="31"><aligns><sc id="4"/><tc id="14"/></aligns></chars></tran></aligned-words>
+                        </sentence-pair>
+               <sentence-count>6</sentence-count>
+   </example-sentences>
+
+   <auth-sents>
+            <sent>
+   <foreign><![CDATA[Sentinal <b>node</b> biopsy was pioneered by Professor Robert Mansel, at Cardiff School of Medicine. ]]></foreign>
+   <speech><![CDATA[Sentinal+node+biopsy+was+pioneered+by+Professor+Robert+Mansel%2C+at+Cardiff+School+of+Medicine.+)]]>
+5a8
+</speech>
+   <source><![CDATA[BBC: <i>Wales and China sign cancer training and research deal</i>]]></source>
+   <url><![CDATA[http://www.bbc.co.uk/news/uk-wales-15539119]]></url>
+   <score>0.99969965</score>
+   </sent>
+            <sent>
+   <foreign><![CDATA[DataRush has an extension that accelerates performance of each Hadoop <b>node</b> in a grid. ]]></foreign>
+   <speech><![CDATA[DataRush+has+an+extension+that+accelerates+performance+of+each+Hadoop+node+in+a+grid.+)]]></speech>
+   <source><![CDATA[FORBES: <i>Does Big Data Always Require Big Money?</i>]]></source>
+   <url><![CDATA[http://www.forbes.com/sites/danwoods/2011/10/07/does-big-data-always-require-big-money/2/]]></url>
+   <score>0.99903756</score>
+   </sent>
+            <sent>
+   <foreign><![CDATA[The Western military alliance said it also struck a command control <b>node</b> in Bani Walid. ]]></foreign>
+   <speech><![CDATA[The+Western+military+alliance+said+it+also+struck+a+command+control+node+in+Bani+Walid.+)]]></speech>
+   <source><![CDATA[NPR: <i>Libyans Flee Siege In Gadhafi's Hometown Sirte</i>]]></source>
+   <url><![CDATA[http://www.npr.org/templates/story/story.php?storyId=140624722]]></url>
+   <score>0.99858576</score>
+   </sent>
+                               <sentence-count>6</sentence-count>
+      </auth-sents>
+
+		                <media-sents>
+			   	     	     <sent type="video">
+	      <eng><![CDATA[In an orbital is remember that this area right her
+5a8
+e at r equals zerio, that is not a <b>node</b>.<br>]]></eng>
+          	      <chn><![CDATA[例如对于１ｓ轨道,记住这里ｒ等于０处不是一个节点。<br>]]></chn>
+          	      <snippets>
+   	      		<snippet>
+		  <source><![CDATA[化学原理课程节选]]></source>
+		  <sourceUrl><![CDATA[http://v.163.com/special/opencourse/principles.html]]></sourceUrl>
+		  <streamUrl><![CDATA[movie=http://dict.youdao.com/purevideo?docid=7191478354287121326&auto=true]]></streamUrl>
+		  <imageUrl><![CDATA[http://dict.youdao.com/pureimage?docid=7191478354287121326]]></imageUrl>
+		  <name><![CDATA[麻省理工公开课]]></name>
+		  <swf><![CDATA[http://shared.ydstatic.com/dict/4.0/simplayer.swf]]></swf>
+		</snippet>	
+	      	      </snippets>
+ 	     </sent>
+		             	     	     <sent type="video">
+	      <eng><![CDATA[So, actually I want you to go ahead in your notes and circle that zero point and write "not a <b>node</b>."<br>]]></eng>
+          	      <chn><![CDATA[在你们笔记上把这个零点圈出来,在旁边写上“不是节点“,它不是节点“<br>]]></chn>
+          	      <snippets>
+   	      		<snippet>
+		  <source><![CDATA[化学原理课程节选]]></source>
+		  <sourceUrl><![CDATA[http://v.163.com/special/opencourse/principles.html]]></sourceUrl>
+		  <streamUrl><![CDATA[movie=http://dict.youdao.com/purevideo?docid=-5222493739424710469&auto=true]]></streamUrl>
+		  <imageUrl><![CDATA[http://dict
+580
+.youdao.com/pureimage?docid=-5222493739424710469]]></imageUrl>
+		  <name><![CDATA[麻省理工公开课]]></name>
+		  <swf><![CDATA[http://shared.ydstatic.com/dict/4.0/simplayer.swf]]></swf>
+		</snippet>	
+	      	      </snippets>
+ 	     </sent>
+		             	     	     <sent type="video">
+	      <eng><![CDATA[That is to say, I'm going to go back to a <b>node</b> I've already visited.<br>]]></eng>
+          	      <chn><![CDATA[也就是说我将要,返回我访问过的节点。<br>]]></chn>
+          	      <snippets>
+   	      		<snippet>
+		  <source><![CDATA[计算机科学及编程导论课程节选]]></source>
+		  <sourceUrl><![CDATA[http://v.163.com/special/opencourse/bianchengdaolun.html]]></sourceUrl>
+		  <streamUrl><![CDATA[movie=http://dict.youdao.com/purevideo?docid=4005238084342492269&auto=true]]></streamUrl>
+		  <imageUrl><![CDATA[http://dict.youdao.com/pureimage?docid=4005238084342492269]]></imageUrl>
+		  <name><![CDATA[麻省理工公开课]]></name>
+		  <swf><![CDATA[http://shared.ydstatic.com/dict/4.0/simplayer.swf]]></swf>
+		</snippet>	
+	      	      </snippets>
+ 	     </sent>
+		             	                  	                  	                              <sentence-count>4</sentence-count>
+        </media-sents>
+</sentences-result>
+
+
+
+
+<yodao-link><![CDATA[http://dict.youdao.com/search?q=node]]></yodao-link>
+
+<result-advt-show>1</result-advt-show>
+</yodaodict>
+
+0
+
