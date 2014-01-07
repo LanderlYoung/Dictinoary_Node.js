@@ -1,4 +1,4 @@
-Dictinoary_Node.js
+Dictinoary\_Node.js
 ==================
 youdao dictionary wrapped in Node.js
 
