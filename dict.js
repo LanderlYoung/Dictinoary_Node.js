@@ -1,5 +1,13 @@
 #! /usr/bin/env node
 
+/***************************************************************
+    > File Name:     dict.js 
+    > Author:        Landerl Young
+    > Mail:          LanderlYoung@gmail.com 
+    > Created Time:  Tus 18 Feb 2014 06:04:06 PM CST
+ **************************************************************/
+
+
 var http = require('http');
 var xmlreader = require('xmlreader');
 var fs = require('fs');
