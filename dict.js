@@ -7,9 +7,16 @@
 	var fs = require('fs');
 
 	//flags
-	var eng = false; //show english-english explination
-	var han = false; //show chinese-english explination
+	var ee = false; //show english-english explination
+	var ce = false; //show chinese-english explination
 	var pnc = false; //pronounce
+
+	//word to query
+	var word = '';
+	word = "can";
+
+	ee = true;
+	ce = true;
 
 	function genUrl(word) {
 		return 'http://dict.youdao.com/search?keyfrom=metrodict.main&xmlDetail=true&doctype=xml&xmlVersion=8.1&dogVersion=1.0&q=' + 
@@ -18,10 +25,12 @@
 	}
 
 	// young test http request;
-	var word = "node"; //word to be queryed
 	var queryURL = genUrl(word);
 
 	function show(output) {
+		console.dir(output);
+		return;
+
 		var p = console.log;
 		p(output.type);
 		for(var i = 0; i < output.notes.length; i++) {
@@ -31,30 +40,59 @@
 			for(var j = 0; j < note.length; j++ ) {
 				p(note[j]);
 			}
+			p();
 		}
+
 	}
 
 	function genOutput(xml) {
-		var res = { type : '', notes : [] };
+		var res = [];
 		xmlreader.read(xml, function (err, response) {
 			if (err) return console.log(err);
 
 			var basic = response.yodaodict.basic;
 			for (var i = 0; i < basic.count(); i++) {
-				if (basic.at(i).name.text() === "英汉翻译") {
-					res.notes[res.notes.length] = { type : "英汉翻译", 
-						note : []
-					};
+				var expand = false;
+				//english chinese --default
+				var type = basic.at(i).type.text().toLowerCase();
+				if ( type === 'ec' ||
+					(type == 'ee' && ee) ||
+					(type == 'ce' && ce)
+				   ) {
+					   res[res.length] = {
+						   type : basic.at(i).name.text(), 
+							claz : {
+								type: '', exp : []
+							},
+					   };
+					   expand = true;
+				   }
+
+				if (expand) {
+					console.log(res[res.length - 1].type);
 					//console.log(basic.at(i)['authoritative-dict'].word.trs);
-					var note = res.notes[res.notes.length - 1].note;
-					var tr = basic.at(i)['authoritative-dict'].word.trs.tr;
-					for (var j = 0; j < tr.count(); j++) {
-						//console.log(typeof tr.at(j).l);
-					//	console.log(tr.at(j).l.i.text());
-						note[note.length] = tr.at(j).l.i.text();
-					}	
+					var claz = res[res.length - 1].claz;
+					var trs = basic.at(i)['authoritative-dict'].word.trs;
+
+					if(typeof trs === 'undefined') {
+						console.dir( basic.at(i)['authoritative-dict'].word);
+					}
+
+
+
+					for(var t = 0; t < trs.count(); t++) {
+						claz.type = trs.at(i).pos.text();
+						var exp = claz.exp;
+						var tr = trs.at(i).tr;
+
+						for (var j = 0; j < tr.count(); j++) {
+							//console.log(typeof tr.at(j).l);
+							//	console.log(tr.at(j).l.i.text());
+							exp.push(tr.at(j).l.i.text());
+						}	
+					}
 				} else {
-					console.log(basic.at(i).name.text());
+					//console.log(basic.at(i).name.text());
 				}
 			}
 
