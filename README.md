@@ -6,3 +6,6 @@ Youdao dictionary is a good online dictionary.After learn something about awesom
 
 this is the test branch.
 testing different kind of Node.js API, and some other things.
+
+dependence:
+node.js mosule `xmlreader` which could be installed by `npm install xmlreader`
