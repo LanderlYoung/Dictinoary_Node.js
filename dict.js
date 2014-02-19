@@ -45,7 +45,6 @@ var argv = process.argv.splice(2);
 			ee = cc = true;
 		}
 	}
-
 })();
 
 function usage() {
