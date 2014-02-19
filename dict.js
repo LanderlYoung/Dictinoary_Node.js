@@ -5,16 +5,50 @@ var xmlreader = require('xmlreader');
 var fs = require('fs');
 
 //flags
-var ee = false; //show english-english explination
-var ce = false; //show chinese-english explination
+var ee = false; //show english explination
+var cc = true; //show chinese explination
 var pnc = false; //pronounce
-
 //word to query
 var word = '';
-word = "can";
 
-ee = true;
-ce = true;
+//command line arguments
+var argv = process.argv.splice(2);
+
+(function(){
+	if (argv.length == 0 || argv.length > 2) {
+		usage();
+		process.exit(1);
+	} else if( argv.length == 1) {
+		word = argv[0];
+	} else {
+		var swt = argv[0];
+		word = argv[1];
+		if( swt.search(/e|E/) != -1) {
+			ee = true;
+		}
+		if( swt.search(/p|P/) != -1) {
+			pnc = true;
+		}
+		if( swt.search(/v/) != -1) {
+			ee = cc = true;
+		}
+		if(swt.search(/V/) != -1) {
+			pnc = true;
+			ee = cc = true;
+		}
+	}
+
+})();
+
+function usage() {
+	console.log("dict [epvV] <word>\n" + 
+			"    e - show english explanation\n" +
+			"    p - prononuce (not available now)\n" +
+			"    v - verbose -- show as much explanation as possible.\n" +
+			"    V - same as vp"
+			);
+
+}
 
 function genUrl(word) {
 	return 'http://dict.youdao.com/search?keyfrom=metrodict.main&xmlDetail=true&doctype=xml&xmlVersion=8.1&dogVersion=1.0&q=' + 
@@ -31,34 +65,37 @@ function show(output) {
 	RED = "\033[1;31m";
 	GREEN = "\033[1;32m";
 	DEFAULT = "\033[0;49m";
-	
+
 	BOLD = "\033[1m";
 	UNDERLINE = "\033[4m";
 	NORMAL = "\033[m";
 
+	p(UNDERLINE + word + NORMAL);
+	p();
+
 	for (var basic_c = 0; basic_c < output.length; basic_c++) {
+		//type
 		p(UNDERLINE + RED + output[basic_c].type + NORMAL);
-		var word = output[basic_c].word;
-		for(var word_c = 0; word_c < word.length; word_c++) {
-			//try {
-			//word
-			var trs = word[word_c].trs;
-			//		console.dir(trs);
+		var xword = output[basic_c].word;
+		for(var word_c = 0; word_c < xword.length; word_c++) {
+			try {
+				//word
+				var trs = xword[word_c].trs;
+				//		console.dir(trs);
 
-			for (var trs_c = 0; trs_c < trs.length; trs_c++) {
-				//type
-				p('  ' + GREEN + BOLD + trs[trs_c].type + NORMAL);
-				var exp = trs[trs_c].exp;
+				for (var trs_c = 0; trs_c < trs.length; trs_c++) {
+					//type
+					p('  ' + GREEN + BOLD + trs[trs_c].type + NORMAL);
+					var exp = trs[trs_c].exp;
 
-				for (var exp_c = 0; exp_c < exp.length; exp_c++) {
-					p('    ' + exp[exp_c]);
+					for (var exp_c = 0; exp_c < exp.length; exp_c++) {
+						p('    ' + exp[exp_c]);
+					}
 				}
-			}
-
-			//} catch (e) {}
-
+			} catch (e) {}
 
 		}
+		p();
 	}
 }
 
@@ -68,13 +105,16 @@ function genOutput(xml) {
 		if (err) return console.log(err);
 
 		var basic = response.yodaodict.basic;
+
+		if(!basic) return;
+
 		for (var i = 0; i < basic.count(); i++) {
 			var expand = false;
 			//english chinese --default
 			var type = basic.at(i).type.text().toLowerCase();
-			if ( type === 'ec' ||
+			if ( (type === 'ec' && cc) ||
 				(type === 'ee' && ee) ||
-				(type === 'ce' && ce) ) {
+				(type === 'ce' && cc) ) {
 					res.push({
 						type : basic.at(i).name.text(), 
 						word : []
@@ -83,7 +123,7 @@ function genOutput(xml) {
 				}
 
 			if (expand) {
-				console.log(res[res.length - 1].type);
+				//console.log(res[res.length - 1].type);
 				var xword = basic.at(i)['authoritative-dict'].word;
 
 				if (!xword) continue;
