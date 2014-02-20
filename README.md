@@ -15,3 +15,4 @@ node.js module `xmlreader` which could be installed (and already installed in cu
 ### in order to be able to prounounce, the following software is required.
 sox music player, which could be installed by `sudo apt-get install sox libsox-fmt-all` or `sudo yum install sox libsox-fmt-all`.
 
+for more details, please visit my blog [http://landerlyoung.github.io/]()
