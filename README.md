@@ -12,7 +12,8 @@ dependence:
 node.js module `xmlreader` which could be installed (and already installed in current directory) by `npm install xmlreader`.
 
 ### [alternative]
-*in order to be able to prounounce, the following software is required.*
+**in order to be able to prounounce, the following software is required.**  
+
 sox music player, which could be installed by `sudo apt-get install sox libsox-fmt-all` or `sudo yum install sox libsox-fmt-all`.
 
 for more details, please visit my [blog](http://landerlyoung.github.io/)
