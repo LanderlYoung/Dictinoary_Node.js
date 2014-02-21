@@ -1,21 +1,21 @@
 #! /usr/bin/env node
 
 /***************************************************************
-    > File Name:     dict.js 
-    > Author:        Landerl Young
-    > Mail:          LanderlYoung@gmail.com 
-    > Created Time:  Tus 18 Feb 2014 06:04:06 PM CST
+  > File Name:     dict.js 
+  > Author:        Landerl Young
+  > Mail:          LanderlYoung@gmail.com 
+  > Created Time:  Tus 18 Feb 2014 06:04:06 PM CST
  **************************************************************/
 
 
 var http = require('http');
 var xmlreader = require('xmlreader');
-var fs = require('fs');
+var cp = require('child_process');
 
 //flags
 var ee = false; //show english explination
 var cc = true; //show chinese explination
-var pnc = false; //pronounce
+var pnc = null; //pronounce
 //word to query
 var word = '';
 
@@ -34,14 +34,17 @@ var argv = process.argv.splice(2);
 		if( swt.search(/e|E/) != -1) {
 			ee = true;
 		}
-		if( swt.search(/p|P/) != -1) {
-			pnc = true;
+		if( swt.search(/p/) != -1) {
+			pnc = 'a';//american english
+		}
+		if( swt.search(/P/) != -1) {
+			pnc = 'b';//british english
 		}
 		if( swt.search(/v/) != -1) {
 			ee = cc = true;
 		}
 		if(swt.search(/V/) != -1) {
-			pnc = true;
+			pnc = 'a';
 			ee = cc = true;
 		}
 	}
@@ -50,7 +53,8 @@ var argv = process.argv.splice(2);
 function usage() {
 	console.log("dict [epvV] <word>\n" + 
 			"    e - show english explanation\n" +
-			"    p - prononuce (not available now)\n" +
+			"    p - prononuce american english\n" +
+			"    P - prononuce british english\n" +
 			"    v - verbose -- show as much explanation as possible.\n" +
 			"    V - same as vp"
 			);
@@ -63,7 +67,12 @@ function genUrl(word) {
 		'&le=eng&keyfrom=metrodict.input&client=metrodict&id=3019615280104595010663601040404140109040186114402823410158212201782429070109&appVer=1.1.49.6663.beta&vendor=store';
 }
 
-// young test http request;
+function genPncURL(word, type) {
+	return 'http://dict.youdao.com/dictvoice?audio=' + 
+		encodeURI(word) + 
+		'&type=' + (type === 'a' ? 2 : 1);
+}
+
 var queryURL = genUrl(word);
 
 function show(output) {
@@ -171,31 +180,38 @@ function genOutput(xml) {
 	return res;
 }
 
-var req = http.request(queryURL,  function(res) {
-	var chunks = [], length = 0;
-	res.on('data', function(trunk) {
-		length += trunk.length;
-		chunks.push(trunk);
-	});
-	res.on('end', function() {
-		var data = new Buffer(length),
-		pos = 0, 
-		l = chunks.length;
-	for (var i = 0; i < l; i++) {
-		chunks[i].copy(data, pos);
-		pos += chunks[i].length;
+(function(){
+	if (pnc) {
+		var pncUrl = genPncURL(word, pnc);
+		cp.spawn('./pnc.js', [ pncUrl ]);
 	}
 
-	res.body = data;
-	//TODO
-	//console.log(data.toString());
-	var output = genOutput(data.toString());
-	show(output);
+	var req = http.request(queryURL,  function(res) {
+		var chunks = [], length = 0;
+		res.on('data', function(trunk) {
+			length += trunk.length;
+			chunks.push(trunk);
+		});
+		res.on('end', function() {
+			var data = new Buffer(length),
+			pos = 0, 
+			l = chunks.length;
+		for (var i = 0; i < l; i++) {
+			chunks[i].copy(data, pos);
+			pos += chunks[i].length;
+		}
 
+		res.body = data;
+		//TODO
+		//console.log(data.toString());
+		var output = genOutput(data.toString());
+		show(output);
+
+		});
+		res.on('error', function(err){
+			//FIXME
+			console.log("requesr error");
+		});
 	});
-	res.on('error', function(err){
-		//FIXME
-		console.log("requesr error");
-	});
-});
-req.end();
+	req.end();
+})();
