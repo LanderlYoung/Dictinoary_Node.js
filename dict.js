@@ -140,8 +140,10 @@ function genOutput(xml) {
 
 			if (expand) {
 				//console.log(res[res.length - 1].type);
-				var xword = basic.at(i)['authoritative-dict'].word;
+				var xword = basic.at(i)['authoritative-dict'];
 
+				if (!xword) continue;
+				xword = xword.word;
 				if (!xword) continue;
 
 				var word = res[res.length - 1].word;
