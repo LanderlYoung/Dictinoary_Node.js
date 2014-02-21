@@ -14,7 +14,8 @@ var spawn = require('child_process').spawn;
 function makeTemp() {
 	function genRandomString(length) {
 		var str = "abcdefghijklmnopqrstuvwxyz" +
-			"ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+			"ABCDEFGHIJKLMNOPQRSTUVWXYZ" + 
+			"0123456789";
 		var res = '';
 		for (var i =0; i < length; i++) {
 			res += str[Math.floor(Math.random() * str.length)];
