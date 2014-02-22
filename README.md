@@ -4,6 +4,9 @@ youdao dictionary wrapped in Node.js
 
 Youdao dictionary is a good online dictionary.After learn something about awesome Node.js, I'd like use Node.js as a native javascript translator. So, I came up whith the idea that write a javascript script whose job is send query request to [dict.youdao.com](http://dict.youdao.com) and show result in terminal,  to be more awesome,  make it be able to pronounce!
 
+###INSTALL
+to install this tool, just simply move dict.js and pnc.js into some directory, and create a executable soft link of dict.js. At last, at the same times , the most important step, change the pnc\_js\_Path variable of dict.js to the absolute path of pnc.js.
+
 this is the test branch.
 testing different kind of Node.js API, and some other things.
 

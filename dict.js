@@ -12,6 +12,12 @@ var http = require('http');
 var xmlreader = require('xmlreader');
 var cp = require('child_process');
 
+//the pronounce module file path
+//which is required when you 'install'
+//the two file into somewhere
+//otherwise this script cannot fild the pronounce module path
+var pnc_js_Path = './pnc.js';
+
 //flags
 var ee = false; //show english explination
 var cc = true; //show chinese explination
@@ -184,8 +190,12 @@ function genOutput(xml) {
 
 (function(){
 	if (pnc) {
-		var pncUrl = genPncURL(word, pnc);
-		cp.spawn('./pnc.js', [ pncUrl ]);
+		try {
+			var pncUrl = genPncURL(word, pnc);
+			cp.spawn(pnc_js_Path, [ pncUrl ]);
+		} catch(e) {
+			console.log('please set variable pnc_js_Path, which presents the absolute path of pnc.js');
+		}
 	}
 
 	var req = http.request(queryURL,  function(res) {

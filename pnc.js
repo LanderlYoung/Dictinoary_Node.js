@@ -26,7 +26,7 @@ function makeTemp() {
 	var count = 0;
 	while (true) {
 		//avoid dead loop
-		if( count > 10) return null;
+		if( count++ > 10) return null;
 
 		var fileName = '/tmp/NodeDict.' + genRandomString(6) + '.mp3';
 		try {
@@ -86,7 +86,7 @@ function playAndClean(file) {
 
 		});
 		res.on('error', function(err){
-			//FIXME
+			//TODO
 			//console.log("requesr error");
 		});
 	});
