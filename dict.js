@@ -192,7 +192,7 @@ function genOutput(xml) {
 	if (pnc) {
 		try {
 			var pncUrl = genPncURL(word, pnc);
-			cp.spawn(pnc_js_Path, [ pncUrl ]);
+			cp.fork(pnc_js_Path, [ pncUrl ]);
 		} catch(e) {
 			console.log('please set variable pnc_js_Path, which presents the absolute path of pnc.js');
 		}
