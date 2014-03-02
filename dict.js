@@ -16,7 +16,7 @@ var cp = require('child_process');
 //which is required when you 'install'
 //the two file into somewhere
 //otherwise this script cannot fild the pronounce module path
-var pnc_js_Path = './pnc.js';
+var pnc_js_Path = __dirname + '/pnc.js';
 
 //flags
 var ee = false; //show english explination
